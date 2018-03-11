@@ -26,13 +26,13 @@
 
     <div class="col">
       <p class="credits float-right">
-        <a href="#">lee@originalfuzz.com</a>
+        <a href="#">{{ site.email }}</a>
         <a href="#">twitter</a>
         <a href="#">github</a>
       </p>
 
       <p class="copyright float-right">
-        &copy; Lee McAlilly {{ 'now' | date: "%Y" }}
+        &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
       </p>
     </div><!-- /.col -->
   </div><!-- /.row -->
