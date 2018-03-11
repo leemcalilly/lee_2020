@@ -1,8 +1,84 @@
 ---
 ---
 
-// Custom styles here
+// Variables
 
-body p {
-  color: red;
+$white: #fff;
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter",
+  "Lucida Typewriter", monospace;
 }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// Layout
+/* Template container width */
+@media (min-width: 48rem) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+body {
+  padding-top: 60px;
+  background-color: $white;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Template header */
+.header {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Header: make the site title same height as the navigation */
+.header {
+  .nav {
+    margin-top: 0.25rem;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Template footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.credits {
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+// Home
+
+// Page
+
+// Journal
+
+// Resume
