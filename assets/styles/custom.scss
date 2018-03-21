@@ -46,7 +46,7 @@ textarea {
 /* Header: make the site title same height as the navigation */
 .header {
   .nav {
-    margin-top: 0.25rem;
+    margin-top: 0.3rem;
   }
 
   h3 {
@@ -64,15 +64,19 @@ input[type="submit"] {
 }
 
 /* Template footer */
-.footer {
-  padding-top: 1.5rem;
+footer {
   color: #777;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   border-top: .05rem solid #e5e5e5;
-}
 
-.credits {
-  padding-top: 0.5rem;
-  margin-bottom: 0;
+  h6 {
+    margin-bottom: 0;
+  }
+
+  .nav {
+    margin-bottom: 2rem;
+  }
 }
 
 // Home
