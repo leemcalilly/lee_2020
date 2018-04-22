@@ -1,7 +1,7 @@
 ---
 layout: default
 title: { site.title }
-permalink: /
+permalink: index.html
 ---
 
 # Hello world!

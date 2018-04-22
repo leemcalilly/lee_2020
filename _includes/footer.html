@@ -5,7 +5,7 @@
 
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a href="mailto:leemcalilly@gmail.com" class="nav-link">
+        <a href="mailto:{{ site.email_address }}" class="nav-link">
           Email
         </a>
       </li>
@@ -17,13 +17,13 @@
       </li>
 
       <li class="nav-item">
-        <a href="https://github.com/leemcalilly" class="nav-link">
+        <a href="https://github.com/{{ site.github_username }}" class="nav-link">
           Github
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://stackoverflow.com/users/168286/lee-mcalilly" class="nav-link">
+        <a href="{{ site.stackoverflow_url}}" class="nav-link">
           Stack Overflow
         </a>
       </li>
@@ -34,31 +34,31 @@
     </h6>
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a href="https://www.instagram.com/originalfuzz/" class="nav-link">
+        <a href="https://www.instagram.com/{{ site.instagram_username }}" class="nav-link">
           Instagram
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://twitter.com/original_fuzz" class="nav-link">
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="nav-link">
           Twitter
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://open.spotify.com/user/djoriginalfuzz?si=2hZZSFliRuemICnXMDKiRA" class="nav-link">
+        <a href="{{ site.spotify_url }}" class="nav-link">
           Spotify
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://www.youtube.com/c/OriginalFuzz" class="nav-link">
+        <a href="https://www.youtube.com/c/{{ site.youtube_username }}" class="nav-link">
           YouTube
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://www.facebook.com/originalfuzz" class="nav-link">
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" class="nav-link">
           Facebook
         </a>
       </li>
@@ -90,7 +90,7 @@
 
     <div class="row justify-content-center">
       <h6 class="text-muted">
-        &copy; {{ site.title }} {{ 'now' | date: "%Y" }}
+        &copy; {{ site.title }} 1983-{{ 'now' | date: "%Y" }}
       </h6>
     </div>
 </footer>
