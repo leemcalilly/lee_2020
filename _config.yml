@@ -18,7 +18,6 @@ email: lee@originalfuzz.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website and journal for Lee McAlilly, founder of Original Fuzz and web developer. Soccer enthusiast. Raised in Mississippi now residing in Nashville, TN.
 baseurl: "" # the subpath of your site, e.g. /blog
-root: "/"
 url: "https://leemcalilly.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 facebook_username: originalfuzz
@@ -33,6 +32,15 @@ youtube_username: OriginalFuzz
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "note"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

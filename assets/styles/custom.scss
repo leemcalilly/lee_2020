@@ -16,13 +16,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 a {
   color: $mint_green;
   text-decoration: none;
-  border-bottom: 2px solid $gray;
+  border-bottom: 3px solid $gray;
 }
 
 a:hover {
@@ -33,7 +33,9 @@ a:hover {
 
 header a,
 footer .nav-item a,
-.text-muted a {
+.text-muted a,
+.all-notes a,
+.go-back a {
   border-bottom: none;
 }
 

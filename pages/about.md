@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About // Lee McAlilly
 permalink: about.html
 ---
