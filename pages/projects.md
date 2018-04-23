@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Projects // { site.title }
+title: Projects // Lee McAlilly
 permalink: projects.html
 ---
 
 # Current Projects
-
-This is the stuff I'm currently working on:
 
 * [Original Fuzz](https://originalfuzz.com): the creativity outfitters.
 * [Please Quote Me](https://pleasequote.com): a compendium of quotes by musicians about other musicians.

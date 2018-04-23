@@ -2,8 +2,11 @@
 ---
 
 // Variables
-
 $white: #fff;
+$green: #367177;
+$mint_green: #67b99c;
+$gray: #c0c0c0;
+
 
 // Typography
 
@@ -16,17 +19,39 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: $mint_green;
+  text-decoration: none;
+  border-bottom: 2px solid $gray;
+}
+
+a:hover {
+  color: $green;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+header a,
+footer .nav-item a,
+.text-muted a {
+  border-bottom: none;
+}
+
 // Layout
 /* Template container width */
 @media (min-width: 48rem) {
   .container {
-    max-width: 600px;
+    max-width: 520px;
   }
 }
 
 body {
   padding-top: 60px;
   background-color: $white;
+
+  img {
+    width: 100%;
+  }
 }
 
 section {
@@ -53,6 +78,14 @@ textarea {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 3rem;
+
+    a {
+      color: $gray;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -68,6 +101,7 @@ footer {
   color: #777;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-top: .05rem solid #e5e5e5;
 
   h6 {

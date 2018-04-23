@@ -5,13 +5,13 @@
 
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a href="mailto:{{ site.email_address }}" class="nav-link">
+        <a href="mailto:{{ site.email }}" class="nav-link">
           Email
         </a>
       </li>
 
       <li class="nav-item">
-        <a href="https://www.originalfuzz.com" class="nav-link">
+        <a href="https://originalfuzz.com" class="nav-link">
           Original Fuzz
         </a>
       </li>
@@ -65,7 +65,7 @@
     </ul>
 
     <h6 class="text-center text-uppercase">
-      Journal
+      Scrapbook
     </h6>
     <ul class="nav justify-content-center">
       <li class="nav-item">
@@ -78,7 +78,7 @@
         <a href="#" class="nav-link">Photos</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Projects</a>
+        <a href="{{ site.baseurl }}/projects" class="nav-link">Projects</a>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link">Recipes</a>
@@ -91,6 +91,11 @@
     <div class="row justify-content-center">
       <h6 class="text-muted">
         &copy; {{ site.title }} 1983-{{ 'now' | date: "%Y" }}
+      </h6>
+    </div>
+    <div class="row justify-content-center">
+      <h6>
+        <small><em>Look out honey 'cause I'm using technology.</em></small>
       </h6>
     </div>
 </footer>

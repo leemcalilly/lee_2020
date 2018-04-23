@@ -21,13 +21,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 root: "/"
 url: "https://leemcalilly.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-email_address: leemcalilly@gmail.com
-
 facebook_username: originalfuzz
 github_username: leemcalilly
 instagram_username: originalfuzz
 spotify_url: https://open.spotify.com/user/djoriginalfuzz?si=2hZZSFliRuemICnXMDKiRA
-stackoverflow_url: https://stackoverflow.com/users/168286/lee-mcalilly
+stackoverflow_url: https://stackoverflow.com/users/168286/lee-mcalilly?tab=profile
 twitter_username: original_fuzz
 youtube_username: OriginalFuzz
 
