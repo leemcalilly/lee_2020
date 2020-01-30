@@ -12,6 +12,11 @@ category: note
 * https://originalfuzz.com/magazine (this is where I've written/published over the last 7 years.)
 
 
+# About Me
+Full-stack entrepreneur—I can code, design things, and I have experience starting businesses from scratch. My most recent endeavor—Original Fuzz—has sold over $1MM of guitar straps that I designed, marketed, and manufactured in Nashville, TN.
+
+My experience writing, editing, podcasting, and bootstrapping startups makes me perfect for this role. Your only question should be, "Why would he want want to work for TWIST, in this job?"
+
 # Where Have You Worked
 
 Currently I am the co-founder and CEO of Original Fuzz, an accessories brand for musicians and artists (https://originalfuzz.com). We have sold over $1MM in products that I've designed, marketed, and manufactured, but I'm at a crossroads as I look at the next decade of my life. Before starting this direct-to-consumer manufacturing business, I was a ruby developer and I seriously miss coding. It's a creative outlet for me and I want to do a new startup that involves software, not manufacturing physical products. I'm currently in the process of exiting Original Fuzz, and this job would be the perfect way for me to transition to my next project. I would put in an honest day's work and then work on new ideas nights & weekends. Jason would have a front-row seat for whatever I do next, and I would get to brainwash myself with the wisdom of every founder that has been a guest on TWIST. I've already listened to the podcast for years, but this role would be a next-level education. In addition, my background is perfect for the job. I was an English major and have worked as a production editor for a publisher (checking grammar, formatting mistakes, etc.). I worked in business development during the Web2.0 era where I pitched top investors like Ron Conway, and attended the first TechCrunch40 where Mint won and the SXSW where Twitter launched. Not only that, as a part of my most recent startup, I've written a web 'zine and hosted a podcast (https://originalfuzz.com/podcast). In that role I've interviewed famous musicians, artists, and chefs, and done all of the production and editing required to publish a podcast. There is probably not a more qualified candidate for this job.
